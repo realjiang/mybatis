@@ -17,6 +17,11 @@
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="aliyun" />
+      <option name="name" value="aliyun" />
+      <option name="url" value="http://maven.r.io/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="http://maven.r.io/" />
