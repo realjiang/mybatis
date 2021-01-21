@@ -29,31 +29,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a6ba54e-9416-419f-869f-485bf7461674" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/case1/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/case1/student.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/case1/说明1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/case2/说明2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/case3/说明3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/case4/说明4.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/images/2-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/images/2-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/images/2-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/images/2-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/images/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/images/4-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/images/4-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/images/4-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/images/表1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/images/表2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/utils/MyBatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/student.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/superj/case1/MyBatisTestor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/case2/Classes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/case2/Students.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/classes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/students.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/superj/case2/MyBatisTestor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/superj/case2/说明2.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/superj/case2/说明2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/goods.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/goods.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/superj/mybatis/MyBatisTestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/superj/mybatis/MyBatisTestor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,11 +112,11 @@
       <recent name="com.superj.case1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.superj.case2" />
       <recent name="com.superj.case1" />
       <recent name="com.superj.utils" />
       <recent name="com.superj.mybatis_annotation.utils" />
       <recent name="com.superj.mybatis_annotation.dto" />
-      <recent name="com.superj.mybatis_annotation.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\myproject\javacode\mybatis\src\main\resources\mappers" />
@@ -142,7 +126,7 @@
       <recent name="E:\myproject\javacode\mybatis\src\main\java\com\superj\case2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisTestor.selectStudents">
+  <component name="RunManager" selected="JUnit.MyBatisTestor.selectOneToMany">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -152,6 +136,22 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTestor.selectOneToMany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.superj.case2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.superj.case2" />
+      <option name="MAIN_CLASS_NAME" value="com.superj.case2.MyBatisTestor" />
+      <option name="METHOD_NAME" value="selectOneToMany" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -183,22 +183,6 @@
       <option name="PACKAGE_NAME" value="com.superj.mybatis" />
       <option name="MAIN_CLASS_NAME" value="com.superj.mybatis.MyBatisTestor" />
       <option name="METHOD_NAME" value="testDelete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyBatisTestor.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.superj.mybatis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.superj.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.superj.mybatis.MyBatisTestor" />
-      <option name="METHOD_NAME" value="testInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -238,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyBatisTestor.selectOneToMany" />
         <item itemvalue="JUnit.MyBatisTestor.selectStudents" />
         <item itemvalue="JUnit.MyBatisTestor.testSelectByTitle" />
         <item itemvalue="JUnit.MyBatisTestor.testDelete" />
         <item itemvalue="JUnit.MyBatisTestor.testUpdate" />
-        <item itemvalue="JUnit.MyBatisTestor.testInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +239,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611021619234</updated>
       <workItem from="1611021620361" duration="36042000" />
-      <workItem from="1611199050116" duration="6547000" />
+      <workItem from="1611199050116" duration="11706000" />
     </task>
     <task id="LOCAL-00001" summary="feat:jnuit的使用">
       <created>1611025347931</created>
@@ -285,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611194751326</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat:案例1 - 动态sql">
+      <created>1611212128943</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611212128943</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +311,8 @@
     <MESSAGE value="feat:引入mybatis依赖,创建mybatis配置文件" />
     <MESSAGE value="feat:初始化SqlSessionFactory,创建SqlSession对象" />
     <MESSAGE value="feat:mybatis使用(xml方式和注解方式)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:mybatis使用(xml方式和注解方式)" />
+    <MESSAGE value="feat:案例1 - 动态sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:案例1 - 动态sql" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="197" key="#Inspections" timestamp="1611210828818">
@@ -335,18 +327,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611026959285" />
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1611211126602">
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1611217052984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611211126602" />
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611217052984" />
     <state x="736" y="386" width="447" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1611210282243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="736" y="386" width="447" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611210282243" />
-    <state x="558" y="185" key="CommitChangelistDialog2" timestamp="1611194749161">
+    <state x="558" y="185" key="CommitChangelistDialog2" timestamp="1611212126780">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="185" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611194749161" />
+    <state x="558" y="185" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611212126780" />
     <state x="184" y="85" width="1536" height="832" key="DiffContextDialog" timestamp="1611194524725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -355,22 +347,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611027010212" />
-    <state width="1876" height="391" key="GridCell.Tab.0.bottom" timestamp="1611211695074">
+    <state width="1876" height="258" key="GridCell.Tab.0.bottom" timestamp="1611218221622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="391" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611211695074" />
-    <state width="1876" height="391" key="GridCell.Tab.0.center" timestamp="1611211695074">
+    <state width="1876" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611218221622" />
+    <state width="1876" height="258" key="GridCell.Tab.0.center" timestamp="1611218221616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="391" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611211695074" />
-    <state width="1876" height="391" key="GridCell.Tab.0.left" timestamp="1611211695074">
+    <state width="1876" height="258" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611218221616" />
+    <state width="1876" height="258" key="GridCell.Tab.0.left" timestamp="1611218221616">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="391" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611211695074" />
-    <state width="1876" height="391" key="GridCell.Tab.0.right" timestamp="1611211695074">
+    <state width="1876" height="258" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611218221616" />
+    <state width="1876" height="258" key="GridCell.Tab.0.right" timestamp="1611218221622">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="391" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611211695074" />
+    <state width="1876" height="258" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611218221622" />
+    <state width="1876" height="258" key="GridCell.Tab.1.bottom" timestamp="1611218223025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="258" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611218223025" />
+    <state width="1876" height="258" key="GridCell.Tab.1.center" timestamp="1611218223025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="258" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611218223025" />
+    <state width="1876" height="258" key="GridCell.Tab.1.left" timestamp="1611218223025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="258" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611218223025" />
+    <state width="1876" height="258" key="GridCell.Tab.1.right" timestamp="1611218223025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="258" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611218223025" />
     <state x="462" y="218" key="SettingsEditor" timestamp="1611023531278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -383,6 +391,10 @@
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
     <state x="1920" y="0" width="1156" height="674" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611210800986" />
+    <state x="1920" y="0" width="1156" height="840" key="dock-window-2" timestamp="1611217663092">
+      <screen x="1920" y="0" width="1600" height="900" />
+    </state>
+    <state x="1920" y="0" width="1156" height="840" key="dock-window-2/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611217663092" />
     <state x="662" y="223" width="596" height="618" key="find.popup" timestamp="1611210790740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -395,5 +407,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611049957252" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/superj/case2/MyBatisTestor.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

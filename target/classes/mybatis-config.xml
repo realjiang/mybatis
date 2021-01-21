@@ -64,6 +64,8 @@
 <!--        <mapper resource="mappers/goods.xml"/>-->
 <!--        <mapper resource="mappers/goods_detail.xml"/>-->
         <mapper resource="mappers/student.xml"/>
+        <mapper resource="mappers/students.xml"/>
+        <mapper resource="mappers/classes.xml"/>
     </mappers>
     <!--2.注:采用注解方式开发的时候,不需要注明xml文件,要进行如下配置-->
 <!--    <mappers>-->
