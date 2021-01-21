@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <settings>
+        <!-- goods_id ==> goodsId 驼峰命名转换 -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    <!--启用Pagehelper分页插件-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!--设置数据库类型-->
+            <property name="helperDialect" value="mysql"/>
+            <!--分页合理化-->
+            <property name="reasonable" value="true"/>
+        </plugin>
+    </plugins>
+
+    <!--设置默认指向的数据库-->
+    <environments default="dev">
+        <!--配置环境，不同的环境不同的id名字-->
+        <environment id="dev">
+            <!-- 采用JDBC方式对数据库事务进行commit/rollback -->
+            <transactionManager type="JDBC"></transactionManager>
+            <!--采用连接池方式管理数据库连接-->
+            <!--<dataSource type="POOLED">-->
+            <dataSource type="com.superj.mybatis.datasource.C3P0DataSourceFactory">
+                <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/babytun?serverTimezone=UTC&amp;characterEncoding=utf8&amp;useUnicode=true&amp;useSSL=false&amp;allowPublicKeyRetrieval=true"/>
+                <property name="user" value="user"/>
+                <property name="password" value="123456"/>
+                <property name="initialPoolSize" value="5"/>
+                <property name="maxPoolSize" value="20"/>
+                <property name="minPoolSize" value="5"/>
+                <!--...-->
+            </dataSource>
+        </environment>
+        <environment id="prd">
+            <!-- 采用JDBC方式对数据库事务进行commit/rollback -->
+            <transactionManager type="JDBC"></transactionManager>
+            <!--采用连接池方式管理数据库连接,&符号要转义-->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://192.168.1.155:3306/babytun?useUnicode=true&amp;characterEncoding=UTF-8"/>
+                <property name="username" value="root"/>
+                <property name="password" value="root"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!--1.正常要在这里注明xml文件-->
+<!--    <mappers>-->
+<!--        <mapper resource="mappers/goods.xml"/>-->
+<!--        <mapper resource="mappers/goods_detail.xml"/>-->
+<!--    </mappers>-->
+    <!--2.注:采用注解方式开发的时候,不需要注明xml文件,要进行如下配置-->
+    <mappers>
+        <!--<mapper class="com.imooc.mybatis.dao.GoodsDAO"/>--> <!--  方式一:多个文件时配置文件太长,不推荐使用-->
+        <package name="com.imooc.mybatis.dao"/> <!--  方式二-->
+    </mappers>
+</configuration>
