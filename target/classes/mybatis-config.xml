@@ -48,14 +48,9 @@
             </dataSource>
         </environment>
     </environments>
-    <!--1.正常要在这里注明xml文件-->
-<!--    <mappers>-->
-<!--        <mapper resource="mappers/goods.xml"/>-->
-<!--        <mapper resource="mappers/goods_detail.xml"/>-->
-<!--    </mappers>-->
-    <!--2.注:采用注解方式开发的时候,不需要注明xml文件,要进行如下配置-->
+
     <mappers>
-        <!--<mapper class="com.imooc.mybatis.dao.GoodsDAO"/>--> <!--  方式一:多个文件时配置文件太长,不推荐使用-->
-        <package name="com.imooc.mybatis.dao"/> <!--  方式二-->
+        <mapper resource="mappers/goods.xml"/>
+        <mapper resource="mappers/goods_detail.xml"/>
     </mappers>
 </configuration>
