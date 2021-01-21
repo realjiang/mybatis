@@ -57,8 +57,6 @@
         <result property="category.parentId" column="parent_id"></result>
         <result property="category.categoryLevel" column="category_level"></result>
         <result property="category.categoryOrder" column="category_order"></result>
-
-
         <result property="test" column="test"/>
     </resultMap>
     <select id="selectGoodsDTO" resultMap="rmGoods">
@@ -96,7 +94,7 @@
         select * from t_goods where title = #{title}
         ${order}
     </select>
-
+    <!--动态sql-->
     <select id="dynamicSQL" parameterType="java.util.Map" resultType="com.superj.mybatis.entity.Goods">
         select * from t_goods
         <where>

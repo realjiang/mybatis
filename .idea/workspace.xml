@@ -23,12 +23,38 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a6ba54e-9416-419f-869f-485bf7461674" name="Default Changelist" comment="" />
+    <list default="true" id="1a6ba54e-9416-419f-869f-485bf7461674" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/case1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/case1/student.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/case1/说明1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/case2/说明2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/case3/说明3.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/case4/说明4.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/images/2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/images/2-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/images/2-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/images/2-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/images/4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/images/4-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/images/4-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/images/表1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/images/表2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/utils/MyBatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/superj/case1/MyBatisTestor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mappers/goods.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/goods.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/superj/mybatis/MyBatisTestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/superj/mybatis/MyBatisTestor.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,8 +63,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit3 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -78,7 +104,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/superj/mybatis-annotation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mappers" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -95,29 +121,53 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="junit.framework.TestCase" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\myproject\javacode\mybatis\src\main\java\com\superj\case1" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.superj.case1" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.superj.case1" />
+      <recent name="com.superj.utils" />
       <recent name="com.superj.mybatis_annotation.utils" />
       <recent name="com.superj.mybatis_annotation.dto" />
       <recent name="com.superj.mybatis_annotation.dao" />
-      <recent name="com.superj.mybatis.datasource" />
-      <recent name="com.superj.mybatis.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\myproject\javacode\mybatis\src\main\java\com\superj\mybatis-annotation" />
-      <recent name="E:\myproject\javacode\mybatis\src\main\java\com\superj\mybatis" />
-      <recent name="E:\myproject\javacode\mybatis\src\main\resources" />
-      <recent name="E:\myproject\javacode\mybatis\src\main\java\com\superj" />
-      <recent name="E:\myproject\javacode\mybatis\src\test\java" />
+      <recent name="E:\myproject\javacode\mybatis\src\main\resources\mappers" />
+      <recent name="E:\myproject\javacode\mybatis\src\main\java\com\superj\images" />
+      <recent name="E:\myproject\javacode\mybatis\src\main\java\com\superj\case4" />
+      <recent name="E:\myproject\javacode\mybatis\src\main\java\com\superj\case3" />
+      <recent name="E:\myproject\javacode\mybatis\src\main\java\com\superj\case2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisTestor.testSelectByTitle">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MyBatisTestor.selectStudents">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTestor.selectStudents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.superj.case1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.superj.case1" />
+      <option name="MAIN_CLASS_NAME" value="com.superj.case1.MyBatisTestor" />
+      <option name="METHOD_NAME" value="selectStudents" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,22 +220,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBatisTestor.testSelectGoodsDTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.superj.mybatis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.superj.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.superj.mybatis.MyBatisTestor" />
-      <option name="METHOD_NAME" value="testSelectGoodsDTO" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyBatisTestor.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <extension name="coverage">
@@ -204,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyBatisTestor.selectStudents" />
         <item itemvalue="JUnit.MyBatisTestor.testSelectByTitle" />
         <item itemvalue="JUnit.MyBatisTestor.testDelete" />
         <item itemvalue="JUnit.MyBatisTestor.testUpdate" />
         <item itemvalue="JUnit.MyBatisTestor.testInsert" />
-        <item itemvalue="JUnit.MyBatisTestor.testSelectGoodsDTO" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +255,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611021619234</updated>
       <workItem from="1611021620361" duration="36042000" />
+      <workItem from="1611199050116" duration="6547000" />
     </task>
     <task id="LOCAL-00001" summary="feat:jnuit的使用">
       <created>1611025347931</created>
@@ -267,7 +302,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -278,6 +313,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat:jnuit的使用" />
@@ -287,6 +323,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="feat:mybatis使用(xml方式和注解方式)" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="586" y="197" key="#Inspections" timestamp="1611210828818">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="197" key="#Inspections/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611210828818" />
     <state x="684" y="342" key="#Notifications" timestamp="1611194888274">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -295,6 +335,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611026959285" />
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1611211126602">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611211126602" />
+    <state x="736" y="386" width="447" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1611210282243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="736" y="386" width="447" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611210282243" />
     <state x="558" y="185" key="CommitChangelistDialog2" timestamp="1611194749161">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -307,22 +355,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611027010212" />
-    <state width="1876" height="410" key="GridCell.Tab.0.bottom" timestamp="1611194998570">
+    <state width="1876" height="391" key="GridCell.Tab.0.bottom" timestamp="1611211695074">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="410" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611194998570" />
-    <state width="1876" height="410" key="GridCell.Tab.0.center" timestamp="1611194998570">
+    <state width="1876" height="391" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611211695074" />
+    <state width="1876" height="391" key="GridCell.Tab.0.center" timestamp="1611211695074">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="410" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611194998570" />
-    <state width="1876" height="410" key="GridCell.Tab.0.left" timestamp="1611194998570">
+    <state width="1876" height="391" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611211695074" />
+    <state width="1876" height="391" key="GridCell.Tab.0.left" timestamp="1611211695074">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="410" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611194998570" />
-    <state width="1876" height="410" key="GridCell.Tab.0.right" timestamp="1611194998570">
+    <state width="1876" height="391" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611211695074" />
+    <state width="1876" height="391" key="GridCell.Tab.0.right" timestamp="1611211695074">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="410" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611194998570" />
+    <state width="1876" height="391" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611211695074" />
     <state x="462" y="218" key="SettingsEditor" timestamp="1611023531278">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -331,10 +379,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="301" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611193606889" />
-    <state x="662" y="223" width="596" height="618" key="find.popup" timestamp="1611193112412">
+    <state x="1920" y="0" width="1156" height="674" maximized="true" key="dock-window-1" timestamp="1611210800986">
+      <screen x="1920" y="0" width="1600" height="900" />
+    </state>
+    <state x="1920" y="0" width="1156" height="674" maximized="true" key="dock-window-1/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611210800986" />
+    <state x="662" y="223" width="596" height="618" key="find.popup" timestamp="1611210790740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="662" y="223" width="596" height="618" key="find.popup/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611193112412" />
+    <state x="662" y="223" width="596" height="618" key="find.popup/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611210790740" />
     <state x="330" y="179" key="new project wizard" timestamp="1611194996288">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

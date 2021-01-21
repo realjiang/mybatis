@@ -18,7 +18,7 @@
     </plugins>
 
     <!--设置默认指向的数据库-->
-    <environments default="dev">
+    <environments default="case">
         <!--配置环境，不同的环境不同的id名字-->
         <environment id="dev">
             <!-- 采用JDBC方式对数据库事务进行commit/rollback -->
@@ -47,10 +47,27 @@
                 <property name="password" value="root"/>
             </dataSource>
         </environment>
+        <environment id="case">
+            <!-- 采用JDBC方式对数据库事务进行commit/rollback -->
+            <transactionManager type="JDBC"></transactionManager>
+            <!--采用连接池方式管理数据库连接,&符号要转义-->
+            <dataSource type="com.superj.mybatis.datasource.C3P0DataSourceFactory">
+                <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/test?serverTimezone=UTC&amp;characterEncoding=utf8&amp;useUnicode=true&amp;useSSL=false&amp;allowPublicKeyRetrieval=true"/>
+                <property name="user" value="user"/>
+                <property name="password" value="123456"/>
+            </dataSource>
+        </environment>
     </environments>
-
+    <!--1.正常要在这里注明xml文件-->
     <mappers>
-        <mapper resource="mappers/goods.xml"/>
-        <mapper resource="mappers/goods_detail.xml"/>
+<!--        <mapper resource="mappers/goods.xml"/>-->
+<!--        <mapper resource="mappers/goods_detail.xml"/>-->
+        <mapper resource="mappers/student.xml"/>
     </mappers>
+    <!--2.注:采用注解方式开发的时候,不需要注明xml文件,要进行如下配置-->
+<!--    <mappers>-->
+<!--        &lt;!&ndash;<mapper class="com.superj.mybatis.dao.GoodsDAO"/>&ndash;&gt; &lt;!&ndash;  方式一:多个文件时配置文件太长,不推荐使用&ndash;&gt;-->
+<!--        <package name="com.superj.mybatis.dao"/> &lt;!&ndash;  方式二&ndash;&gt;-->
+<!--    </mappers>-->
 </configuration>
