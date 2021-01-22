@@ -7,18 +7,19 @@ package com.superj.case2;
  * @Date: 2021/1/21 15:03
  */
 public class Students {
-    private int id;
+    private int stuid;
     private String stuno;
     private String stuname;
     private String sex;
     private String classno;
+    private Classes classes;
 
-    public int getId() {
-        return id;
+    public int getStuid() {
+        return stuid;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setStuid(int stuid) {
+        this.stuid = stuid;
     }
 
     public String getStuno() {
@@ -53,14 +54,23 @@ public class Students {
         this.classno = classno;
     }
 
+    public Classes getClasses() {
+        return classes;
+    }
+
+    public void setClasses(Classes classes) {
+        this.classes = classes;
+    }
+
     @Override
     public String toString() {
         return "Students{" +
-                "id=" + id +
+                "id=" + stuid +
                 ", stuno='" + stuno + '\'' +
                 ", stuname='" + stuname + '\'' +
                 ", sex='" + sex + '\'' +
-                ", classno='" + classno +
+                ", classno='" + classno + '\'' +
+                ", classes=" + classes +
                 '}';
     }
 }

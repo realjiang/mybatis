@@ -3,8 +3,18 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="students">
+    <!--一对多-->
     <select id="selectByClassno" parameterType="String"
             resultType="com.superj.case2.Students">
         select * from students where classno = #{classno}
+    </select>
+    <!--多对一-->
+    <resultMap id="rmStudents" type="com.superj.case2.Students">
+        <id column="stuid" property="stuid"/>
+        <result column="classno" property="classno"/>
+        <association property="classes" select="classes.selectById" column="classno"></association>
+    </resultMap>
+    <select id="selectManyToOne" resultMap="rmStudents">
+        select * from students
     </select>
 </mapper>

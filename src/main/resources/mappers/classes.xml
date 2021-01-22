@@ -5,7 +5,7 @@
 <mapper namespace="classes">
     <resultMap id="rmClasses1" type="com.superj.case2.Classes">
         <!-- 映射classes对象的主键到classid字段 -->
-        <id column="id" property="classid"></id>
+        <id column="classid" property="classid"></id>
         <!-- 关联字段要显性映射,否则不会被赋值,结果为null -->
         <result column="classno" property="classno"/>
         <collection property="students" select="students.selectByClassno"
@@ -18,5 +18,11 @@
                 and name = #{value}
             </if>
         </where>
+    </select>
+
+
+<!--    多对一-->
+    <select id="selectById" parameterType="String" resultType="com.superj.case2.Classes">
+        select * from classes where  classno = #{value}
     </select>
 </mapper>

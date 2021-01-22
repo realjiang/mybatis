@@ -1,6 +1,5 @@
 package com.superj.case2;
 
-import com.superj.case1.Student;
 import com.superj.utils.MyBatisUtils;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.Test;
@@ -11,7 +10,7 @@ import java.util.List;
 public class MyBatisTestor {
 
     /**
-     * 动态sql 案例
+     * 关联查询(一对多)
      * @throws Exception
      */
     @Test
@@ -31,6 +30,24 @@ public class MyBatisTestor {
             MyBatisUtils.closeSession(session);
         }
     }
-
+    /**
+     * 关联查询(多对一)
+     * @throws Exception
+     */
+    @Test
+    public void selectManyToOne() throws Exception {
+        SqlSession session = null;
+        try{
+            session = MyBatisUtils.openSession();
+            List<Students> list = session.selectList("students.selectManyToOne");
+            for(Students s : list){
+                System.out.println(s);
+            }
+        } catch (Exception e){
+            throw e;
+        } finally {
+            MyBatisUtils.closeSession(session);
+        }
+    }
 
 }
