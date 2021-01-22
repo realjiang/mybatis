@@ -29,14 +29,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a6ba54e-9416-419f-869f-485bf7461674" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/case2/case2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/case3/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/superj/case3/case3.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mappers/tstudent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/superj/case3/MyBatisTestor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/superj/case2/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/superj/case2/Students.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/classes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/classes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/students.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/students.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/superj/case2/MyBatisTestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/superj/case2/MyBatisTestor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/classes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/classes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mappers/students.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mappers/students.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/superj/case3/说明3.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/superj/case3/说明3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mybatis-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/superj/case2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mappers" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -111,21 +111,21 @@
       <recent name="com.superj.case1" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.superj.case3" />
       <recent name="com.superj.case2" />
       <recent name="com.superj.case1" />
       <recent name="com.superj.utils" />
       <recent name="com.superj.mybatis_annotation.utils" />
-      <recent name="com.superj.mybatis_annotation.dto" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\myproject\javacode\mybatis\src\main\java\com\superj\case2" />
       <recent name="E:\myproject\javacode\mybatis\src\main\resources\mappers" />
+      <recent name="E:\myproject\javacode\mybatis\src\main\java\com\superj\case3" />
+      <recent name="E:\myproject\javacode\mybatis\src\main\java\com\superj\case2" />
       <recent name="E:\myproject\javacode\mybatis\src\main\java\com\superj\images" />
       <recent name="E:\myproject\javacode\mybatis\src\main\java\com\superj\case4" />
-      <recent name="E:\myproject\javacode\mybatis\src\main\java\com\superj\case3" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisTestor.selectOneToMany">
+  <component name="RunManager" selected="JUnit.MyBatisTestor.insertBatch">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -135,6 +135,22 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTestor.insertBatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.superj.case3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.superj.case3" />
+      <option name="MAIN_CLASS_NAME" value="com.superj.case3.MyBatisTestor" />
+      <option name="METHOD_NAME" value="insertBatch" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -187,22 +203,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBatisTestor.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.superj.mybatis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.superj.mybatis" />
-      <option name="MAIN_CLASS_NAME" value="com.superj.mybatis.MyBatisTestor" />
-      <option name="METHOD_NAME" value="testDelete" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyBatisTestor.testSelectByTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <extension name="coverage">
@@ -221,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MyBatisTestor.insertBatch" />
         <item itemvalue="JUnit.MyBatisTestor.selectOneToMany" />
         <item itemvalue="JUnit.MyBatisTestor.selectManyToOne" />
         <item itemvalue="JUnit.MyBatisTestor.selectStudents" />
         <item itemvalue="JUnit.MyBatisTestor.testSelectByTitle" />
-        <item itemvalue="JUnit.MyBatisTestor.testDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +238,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611021619234</updated>
       <workItem from="1611021620361" duration="36042000" />
-      <workItem from="1611199050116" duration="14715000" />
+      <workItem from="1611199050116" duration="15868000" />
     </task>
     <task id="LOCAL-00001" summary="feat:jnuit的使用">
       <created>1611025347931</created>
@@ -282,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611218398250</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat:案例2 - 关联查询(多对一)">
+      <created>1611308336334</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611308336334</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +326,8 @@
     <MESSAGE value="feat:mybatis使用(xml方式和注解方式)" />
     <MESSAGE value="feat:案例1 - 动态sql" />
     <MESSAGE value="feat:案例2 - 关联查询(一对多)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:案例2 - 关联查询(一对多)" />
+    <MESSAGE value="feat:案例2 - 关联查询(多对一)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:案例2 - 关联查询(多对一)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="586" y="197" key="#Inspections" timestamp="1611210828818">
@@ -334,18 +342,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611026959285" />
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1611307799404">
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1611308811299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611307799404" />
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611308811299" />
     <state x="736" y="386" width="447" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1611210282243">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="736" y="386" width="447" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611210282243" />
-    <state x="558" y="185" key="CommitChangelistDialog2" timestamp="1611218396833">
+    <state x="558" y="185" key="CommitChangelistDialog2" timestamp="1611308335077">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="558" y="185" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611218396833" />
+    <state x="558" y="185" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611308335077" />
     <state x="184" y="85" width="1536" height="832" key="DiffContextDialog" timestamp="1611194524725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -354,22 +362,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611219862003" />
-    <state width="1876" height="373" key="GridCell.Tab.0.bottom" timestamp="1611308086620">
+    <state width="1876" height="373" key="GridCell.Tab.0.bottom" timestamp="1611309433101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611308086620" />
-    <state width="1876" height="373" key="GridCell.Tab.0.center" timestamp="1611308086620">
+    <state width="1876" height="373" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611309433101" />
+    <state width="1876" height="373" key="GridCell.Tab.0.center" timestamp="1611309433101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="373" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611308086620" />
-    <state width="1876" height="373" key="GridCell.Tab.0.left" timestamp="1611308086620">
+    <state width="1876" height="373" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611309433101" />
+    <state width="1876" height="373" key="GridCell.Tab.0.left" timestamp="1611309433101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="373" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611308086620" />
-    <state width="1876" height="373" key="GridCell.Tab.0.right" timestamp="1611308086620">
+    <state width="1876" height="373" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611309433101" />
+    <state width="1876" height="373" key="GridCell.Tab.0.right" timestamp="1611309433101">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="373" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611308086620" />
+    <state width="1876" height="373" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611309433101" />
     <state width="1876" height="433" key="GridCell.Tab.1.bottom" timestamp="1611308063433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -402,6 +410,10 @@
       <screen x="1920" y="0" width="1600" height="900" />
     </state>
     <state x="1920" y="0" width="1156" height="840" key="dock-window-2/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611217663092" />
+    <state x="1920" y="16" width="1156" height="690" key="dock-window-3" timestamp="1611309479186">
+      <screen x="1920" y="0" width="1600" height="900" />
+    </state>
+    <state x="1920" y="16" width="1156" height="690" key="dock-window-3/0.0.1920.1040/1920.0.1600.900@0.0.1920.1040" timestamp="1611309479186" />
     <state x="662" y="223" width="596" height="618" key="find.popup" timestamp="1611210790740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
